@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color:whitesmoke;
+}
+h1 {
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    color:#F28C0F;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px  #A6A198,2px 2px 2px  #A6A198;
+}
+div {
+    width: 50%;
+    background-color: #F28C0F;
+    margin: auto;
+    padding: 2%;
+    box-shadow: 1px 1px 1px  #A6A198,2px 2px 2px  #A6A198;
+    border-radius: 8px;
+}
+p {
+    margin: auto;
+    margin-top: 1%;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #F2B872;
+}
+div:hover {
+    background-color: #F2B872;
+}
+div:hover p>span{
+    color: #6a1b9a;
+}
+#titulo::before {
+    color: #c62828;
+    content: "___";
+}
+#titulo::after {
+    color: #2e7d32;
+    content: " *";
+}
+.-p::after {
+    color: #2e7d32;
+    content: ":esto no lo he escrito en el";
+}
